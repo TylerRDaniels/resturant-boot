@@ -1,0 +1,555 @@
+body {
+    font-family: oswald;
+}
+
+.social-section {
+    background-color: rgb(224,71,57);
+}
+
+.soc-list {
+    justify-content: right;
+}
+
+.logo {
+    color: white;
+}
+
+.social-icon {
+    width: 15px;
+}
+
+.top-nav-section {
+    background-image: linear-gradient(rgb(245,99,86),rgb(219,72,56));
+}
+
+.tp-nv-plc {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.top-nav {
+    justify-content: right;
+    align-items: center;
+}
+
+.top-nav-item{
+    margin-left: 10px;
+}
+
+/* .car-section {
+    background-image: ;
+} */
+
+.car-header{
+    font-size: 5vw;
+    text-transform: uppercase;
+}
+
+.car-text {
+    font-size: 1.5vw;
+    text-transform: uppercase;
+    margin-bottom: 200px;
+}
+
+.fnt-sz {
+    font-size: 1vw;
+}
+
+.slogan-section {
+    background-color: rgb(255,248,206);
+}
+
+.slogan-text {
+    color: rgb(111,91,58);
+    font-family: cursive;
+}
+
+
+.slogan-alignlft {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.slogan-alignrgt {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+/* .search-form {
+
+} */
+
+.search-bar {
+    width: 210px;
+    background-color: rgb(255,248,206);
+    padding-right: 30px;
+}
+
+.glass {
+    width:20px;
+    margin-left: 10px;
+}
+
+.car-section {
+    background-image: url(/resturant-boot/media/banner5.jpg);
+    background-size: cover;
+    
+}
+.inner {
+    backdrop-filter: blur(10px);
+}
+
+.figure-section {
+    background-color: rgb(245,238,220);
+}
+
+.figure {
+    background-color: white;
+}
+
+.figure-align {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.figcaption-headder {
+    color: red;
+    font-size: 1.5vw;
+    margin-bottom: 0px;
+}
+
+.figcapton-text {
+    font-size: .7vw;
+}
+
+figcaption {
+    border:solid 2px lightgray;
+    border-bottom:solid 4px lightgray;; 
+}
+
+.about-figure {
+    margin-top: 20px;
+}
+
+.about-header {
+    font-size: 2vw;
+    color: red;
+}
+
+.about-text{
+    font-size: 1vw;
+}
+
+.offer-header {
+    font-size: 1.5vw;
+    margin-left: 5px;
+}
+
+.offer-header span {
+    display: block;
+ }
+
+.offer-text {
+    font-size: 1vw;
+}
+
+.offer-section {
+    background-color: rgb(249,245,234);
+}
+
+.click-here {
+    font-size: 1vw;
+}
+
+.sub-headder {
+    color: rgb(111,91,58);
+    font-family: cursive;
+    font-size: 2vw;
+}
+
+.client-section {
+    background-color: rgb(102,99,94);
+    color: white;
+}
+
+.client-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.client-list-item {
+    font-size: 2vw;
+    font-family: cursive;
+}
+
+.info-section {
+    background-color: rgb(92,89,84);
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-about-header {
+    font-size: 1.5vw;
+    color: white;
+}
+
+.footer-text {
+    color: white;
+}
+
+.read-more {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-blog-header {
+    font-size: 1.5vw;
+    color: white;
+}
+
+.footer-blog-list {
+    list-style: none;
+    padding: 0px;
+}
+
+.blog-subheader {
+    font-size: 1vw;
+    color: white;
+}
+
+.footer-blog-text {
+    color: white;
+}
+
+.footer-flickr-header {
+    font-size: 1.5vw;
+    color: white;
+
+}
+
+.footer-contact-header {
+    font-size: 1.5vw;
+    color: white;
+}
+
+.footer-contact-list {
+    list-style: none;
+    padding: 0px;
+    font-size: 1vw;
+}
+
+.footer-contact-list li {
+    color: white;
+}
+
+.footer-contact-list li a {
+    color: white;
+    text-decoration: none;
+}
+
+.colophon-section {
+    background-color: rgb(65, 62, 57);
+    color: white;
+}
+
+.colophon-text {
+    margin-bottom: 0px;
+}
+
+/* span {
+    display: block;
+    height: 10%;
+    font-size: .5vw;
+} */
+
+
+.off-flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-size {
+    height: 40px;
+    width: 140px;
+}
+
+
+@media (max-width: 780px) {
+
+    .tp-nv-plc {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .soc-list {
+        justify-content: space-around;
+    }
+
+    .nav-link {
+        padding: 0px;
+    }
+
+    .logo {
+        text-align: center;
+    }
+
+    .slogan {
+        display: flex;
+        justify-content: center;
+    }
+
+    .slogan-alignlft {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .slogan-alignrgt {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .car-header{
+        font-size: 4vw;
+        text-transform: uppercase;
+    }
+    
+    .car-text {
+        font-size: 2vw;
+        text-transform: uppercase;
+        margin-bottom: 100px;
+    }
+    
+    .about-header {
+        font-size: 3vw;
+        color: red;
+    }
+    
+    .about-text{
+        font-size: 1.7vw;
+    }
+    
+
+    .figure-align {
+        display: flex;
+       justify-content: space-around;
+    }
+
+    .figcaption-headder {
+        font-size: 3vw;
+    }
+    
+    .figcapton-text {
+        font-size: 1.7vw;
+    }
+
+    .sub-headder {
+        font-size: 3vw;
+    }
+
+    .offer-header {
+        font-size: 3vw;
+    }
+
+    .offer-header span {
+        display: block;
+     }
+ 
+
+    .offer-text {
+        font-size: 1.7vw;
+    }
+
+    .remove-on-small {
+        display: none;
+    }
+
+    .click-here {
+        font-size: 1.7vw;
+    }
+
+
+    .client-list-item {
+        font-size: 3.5vw;
+    }
+
+    .footer-about-header {
+        margin-top: 10px;
+        font-size: 3vw;
+        color: white;
+    }
+
+    .read-more {
+        font-size: 1.7vw;
+    }
+
+    .footer-text {
+        font-size: 1.7vw;
+    }
+    
+    .footer-blog-header {
+        font-size: 3vw;
+        margin-top: 20px;
+    }
+
+    .blog-subheader {
+        font-size: 2vw;
+    }
+    
+    .footer-blog-text {
+        font-size: 1.7vw;
+    }
+    
+    .footer-flickr-header {
+        font-size: 3vw;
+        margin-bottom: 70px;
+
+    }
+    
+    .footer-contact-header {
+        font-size: 3vw;
+    }
+
+    .footer-contact-list {
+        font-size: 1.7vw;
+    }
+}
+
+@media (max-width: 420px) {
+
+    .tp-nv-plc {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .soc-list {
+        justify-content: space-around;
+    }
+
+    .nav-link {
+        padding: 0px;
+    }
+
+    .logo {
+        text-align: center;
+    }
+
+    .slogan {
+        display: flex;
+        justify-content: center;
+    }
+
+    .slogan-alignlft {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .slogan-alignrgt {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .figure-align {
+        display: flex;
+       justify-content: space-around;
+    }
+
+    .figcaption-headder {
+        font-size: 5vw;
+    }
+
+    .about-header {
+        font-size: 5vw;
+        color: red;
+    }
+    
+    .about-text{
+        font-size: 3.5vw;
+    }
+    
+    
+    .figcapton-text {
+        font-size: 3.5vw;
+    }
+
+    .sub-headder {
+        font-size: 5vw;
+    }
+
+    .offer-header {
+        font-size: 5vw;
+    }
+
+    .offer-header span {
+       display: block;
+    }
+
+    .offer-text {
+        font-size: 3.5vw;
+    }
+
+    .remove-on-small {
+        display: none;
+    }
+
+    .click-here {
+        font-size: 3.5vw;
+    }
+
+
+    .client-list-item {
+        font-size: 3.5vw;
+    }
+
+    .footer-about-header {
+        margin-top: 10px;
+        font-size: 5vw;
+        color: white;
+    }
+
+    .read-more {
+        font-size: 3.5vw;
+    }
+
+    .footer-text {
+        font-size: 3.5vw;
+    }
+    
+    .footer-blog-header {
+        font-size: 5vw;
+        margin-top: 20px;
+    }
+
+    .blog-subheader {
+        font-size: 4vw;
+    }
+    
+    .footer-blog-text {
+        font-size: 3.5vw;
+    }
+    
+    .footer-flickr-header {
+        font-size: 5vw;
+        margin-bottom: 70px;
+
+    }
+    
+    .footer-contact-header {
+        font-size: 5vw;
+    }
+
+    .footer-contact-list {
+        font-size: 3.5vw;
+    }
+}
